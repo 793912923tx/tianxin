@@ -1,0 +1,1 @@
+{"name":"opticscope-ai","version":"1.0.0","type":"module","private":true,"description":"Citation-first AI optical interconnect industry research workbench","scripts":{"start":"node server.mjs","test":"node --test scripts/data.test.mjs","check":"node --check app.js && node --check server.mjs"},"engines":{"node":">=20"}}

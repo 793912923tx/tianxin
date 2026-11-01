@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-11-01",
+  "title": "高速光互联｜可追溯研究样本",
+  "classification": {
+    "standard": "按照实物交付在光互联系统中的主要功能分层；跨层经营可多重归属，主层以报告期已披露收入贡献或主要业务为准；不同披露口径不可强行归一。",
+    "levels": [
+      {"id":"chip","name":"01 · 核心芯片与光源","short":"芯片 / 激光器 / DSP","detail":"InP/EML/VCSEL、DSP等；不将所有半导体公司默认纳入。","metric":"良率、产能利用率、单位成本"},
+      {"id":"part","name":"02 · 光器件与光引擎","short":"有源 / 无源器件","detail":"光器件、光组件、FAU与光引擎；与成品光模块收入分开。","metric":"器件收入、毛利率、交付能力"},
+      {"id":"module","name":"03 · 高速光模块与互联","short":"800G / 1.6T / CPO","detail":"数据中心高速光模块及光互联解决方案；CPO研发不能等同规模营收。","metric":"模块收入、出货量、产品结构"},
+      {"id":"demand","name":"04 · 需求端与系统集成","short":"AI集群 / 交换网络","detail":"云厂商、AI计算集群与网络系统，代表需求驱动端；不直接等于光模块供应商。","metric":"资本开支、端口数量、采购节奏"}
+    ]
+  },
+  "sources": [
+    {"id":"S01","type":"年度报告","publisher":"中际旭创","date":"2026-04","period":"2025-12-31","location":"2025年年报，第24–25页，收入构成表","url":"https://www.cnfin.com/announ/detail/index.html?announ=lc&code=300308&dannoun=lcdetail&id=828224120295","excerpt":"2025年光通信收发模块收入37,456,518,745.90元，收入占比97.95%；毛利率42.61%。","verified":true},
+    {"id":"S02","type":"年度报告","publisher":"新易盛","date":"2026-04-24","period":"2025-12-31","location":"2025年年报，第15–16页，产品构成及通信业务表","url":"https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-24/e20c68b8-9ce5-4751-acfd-9fb5f4e44645.PDF","excerpt":"2025年光互联产品收入24,771,155,676.88元，占收入99.72%，产品毛利率47.81%。","verified":true},
+    {"id":"S03","type":"年度报告","publisher":"天孚通信","date":"2026-04-08","period":"2025-12-31","location":"2025年年报，营业收入构成及产业链位置","url":"https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-08/2cd516ce-3609-4450-ac59-47054561fc21.PDF","excerpt":"2025年无源光器件收入2,084,386,267.76元，有源光器件收入2,997,945,108.74元；两类合计5,082,331,376.50元。","verified":true},
+    {"id":"S04","type":"Form 10-K","publisher":"Coherent","date":"2026-08-14","period":"2026-06-30","location":"FY2026 Form 10-K，Datacenter & Communications分部","url":"https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm","excerpt":"FY2026 Datacenter & Communications segment revenue $5,275 million; this also includes communications products, not exclusively AI transceivers.","verified":true},
+    {"id":"S05","type":"Form 10-K","publisher":"Lumentum","date":"2026-08","period":"2026-06-27","location":"FY2026 Form 10-K，Note 18 Revenue Recognition，产品类别","url":"https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm","excerpt":"FY2026 Components revenue $2,005.6 million; Systems revenue $1,008.4 million. Systems includes optical modules, optical circuit switches and industrial lasers.","verified":true},
+    {"id":"S06","type":"年度报告","publisher":"新易盛","date":"2026-04-24","period":"2025-12-31","location":"2025年年报，2026年经营计划","url":"https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-24/e20c68b8-9ce5-4751-acfd-9fb5f4e44645.PDF","excerpt":"公司计划加大对XPO、NPO、CPO和OCS等新技术、新产品的研发投入与产业化推进力度；此计划不构成CPO规模收入证明。","verified":true},
+    {"id":"S07","type":"半年度报告","publisher":"中际旭创","date":"2026-08-22","period":"2026-06-30","location":"2026年半年度报告摘要，光模块业务","url":"https://paper.cnstock.com/html/2026-08/22/content_2257941.htm","excerpt":"公司披露800G及1.6T高速率光模块持续放量并批量交付；未单独披露1.6T销售收入。","verified":true},
+    {"id":"S08","type":"行业研究机构","publisher":"LightCounting","date":"2026-02-26","period":"2026 forecast","location":"PAM4与相干DSP报告公开摘要","url":"https://www.lightcounting.com/newsletter/en/february-2026-pam4-and-coherent-dsps-updated-april-2026-381","excerpt":"预测2026年800G光模块出货超过翻倍，1.6T出货快速增长；预测不是已实现业绩。","verified":true},
+    {"id":"S09","type":"年度报告","publisher":"中际旭创","date":"2026-04","period":"2025-12-31","location":"2025年年报，第24–25页，境外收入","url":"https://www.cnfin.com/announ/detail/index.html?announ=lc&code=300308&dannoun=lcdetail&id=828224120295","excerpt":"2025年境外销售收入34,636,523,292.07元，占总营业收入90.58%，不等于AI客户占比。","verified":true},
+    {"id":"S10","type":"年度报告","publisher":"天孚通信","date":"2026-04-08","period":"2025-12-31","location":"2025年年报，主要客户和供应商","url":"https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-08/2cd516ce-3609-4450-ac59-47054561fc21.PDF","excerpt":"2025年前五大客户销售额占比89.73%；客户集中度是风险观察指标而非未来损失预测。","verified":true}
+  ],
+  "companies": [
+    {"id":"zj","name":"中际旭创","ticker":"300308.SZ","market":"A股","level":"module","extraLevels":["part"],"role":"高速光模块成品供应商","headline":"光模块收入可核验","revenue":374.565187459,"revenueLabel":"374.57 亿元","denominator":"2025年光通信收发模块收入 / 元","share":97.95,"period":"FY2025","finance":"模块毛利率 42.61%","confidence":"A","evidence":["S01","S07","S09"],"opportunity":"800G/1.6T交付能力和产品结构","risk":"海外需求、关键原材料、贸易与汇率"},
+    {"id":"xy","name":"新易盛","ticker":"300502.SZ","market":"A股","level":"module","extraLevels":["chip","part"],"role":"光互联产品与垂直整合","headline":"产品收入可核验；CPO仅研发口径","revenue":247.7115567688,"revenueLabel":"247.71 亿元","denominator":"2025年光互联产品收入 / 元","share":99.72,"period":"FY2025","finance":"产品毛利率 47.81%","confidence":"A","evidence":["S02","S06"],"opportunity":"速率升级与产能利用率","risk":"新品爬坡、境外销售和技术迭代"},
+    {"id":"tf","name":"天孚通信","ticker":"300394.SZ","market":"A股","level":"part","extraLevels":[],"role":"有源/无源光器件与组件","headline":"器件收入可核验，非模块同业","revenue":50.823313765,"revenueLabel":"50.82 亿元","denominator":"2025年两类光器件主营收入 / 元","share":98.43,"period":"FY2025","finance":"有源约29.98亿；无源约20.84亿","confidence":"A","evidence":["S03","S10"],"opportunity":"光引擎及组件需求增长","risk":"客户集中度、原材料与产品组合"},
+    {"id":"cohr","name":"Coherent","ticker":"COHR · NYSE","market":"美股","level":"module","extraLevels":["chip","part"],"role":"光模块 / 光芯片 / 光学系统","headline":"DC&C分部披露，含非AI业务","revenue":5275,"revenueLabel":"52.75 亿美元","denominator":"FY2026 Datacenter & Communications分部收入 / 美元","share":null,"period":"FY2026 (6月止)","finance":"分部收入 5,275 百万美元","confidence":"A","evidence":["S04"],"opportunity":"光模块与InP垂直整合","risk":"通信业务混合、跨地域产能和客户结构"},
+    {"id":"lite","name":"Lumentum","ticker":"LITE · NASDAQ","market":"美股","level":"chip","extraLevels":["module"],"role":"光芯片组件 / 光模块与OCS","headline":"Components/Systems是产品类非AI纯度","revenue":2005.6,"revenueLabel":"20.06 亿美元","denominator":"FY2026 Components收入 / 美元","share":66.5,"period":"FY2026 (6月止)","finance":"Systems 10.08亿美元，含模块、OCS、工业激光","confidence":"A","evidence":["S05"],"opportunity":"激光器、OCS和光互联组件","risk":"Systems口径含工业激光，不能当模块收入"}
+  ],
+  "claims": [
+    {"id":"C01","company":"zj","topic":"高速光模块","level":"A","title":"光通信收发模块形成实质收入","evidence":["S01"],"explanation":"年度报告产品分项披露收入，能够直接计算占比。","amount":"374.57 亿元 · FY2025","status":"verified"},
+    {"id":"C02","company":"zj","topic":"1.6T光模块","level":"B","title":"披露批量交付，尚无1.6T单列收入","evidence":["S07"],"explanation":"公开披露产品放量与交付，不能据此推断1.6T单独营收。","amount":"金额未单列","status":"verified"},
+    {"id":"C03","company":"xy","topic":"光互联产品","level":"A","title":"光互联产品形成实质收入","evidence":["S02"],"explanation":"年报单列光互联产品收入、占比、毛利率。","amount":"247.71 亿元 · FY2025","status":"verified"},
+    {"id":"C04","company":"xy","topic":"CPO","level":"C","title":"公司提到研发与产业化推进，不等同已量产","evidence":["S06"],"explanation":"经营计划不属于订单或已确认收入凭证。","amount":"无可核验CPO分项收入","status":"verified"},
+    {"id":"C05","company":"tf","topic":"光器件","level":"A","title":"有源与无源光器件形成实质收入","evidence":["S03"],"explanation":"两类器件均有产品分项披露，不可映射为整机光模块收入。","amount":"有源29.98亿 / 无源20.84亿","status":"verified"},
+    {"id":"C06","company":"cohr","topic":"光互联相关分部","level":"A","title":"数据中心与通信分部收入已披露","evidence":["S04"],"explanation":"分部包括通信网络，不等于纯AI光模块收入。","amount":"52.75 亿美元 · FY2026","status":"verified"},
+    {"id":"C07","company":"lite","topic":"光互联组件","level":"A","title":"Components产品类收入可核验","evidence":["S05"],"explanation":"Components含用于多个市场的光芯片与组件，无法直接推导AI业务收入。","amount":"20.06 亿美元 · FY2026","status":"verified"},
+    {"id":"C08","company":"lite","topic":"AI专用1.6T CPO营收","level":"E","title":"未发现可单列的AI专用CPO收入证据","evidence":["S05"],"explanation":"仅能确认更广的产品类别。证据缺失≠公司没有此业务。","amount":"不可确认","status":"open"},
+    {"id":"C09","company":"tf","topic":"下游客户集中度","level":"A","title":"前五大客户收入占比已披露","evidence":["S10"],"explanation":"客户集中度是风险暴露而不是已发生损失。","amount":"89.73% · FY2025","status":"verified"}
+  ],
+  "events": [
+    {"id":"capex","name":"海外AI资本开支上修","kind":"需求冲击","status":"情景假设","detail":"不是对未来业绩的预测：假设海外云厂商提高AI网络投资预算。","trigger":"云厂商资本开支/网络支出公告","paths":[{"from":"海外云厂商投资预算","to":"AI服务器组网与交换机端口需求","strength":"条件成立后可能上行"},{"from":"交换端口与带宽需求","to":"800G/1.6T光模块采购与产品组合","strength":"取决于架构、光口密度、供给"},{"from":"光模块订单和速率结构","to":"中际旭创/新易盛收入与毛利率","strength":"需观察销量、ASP、良率"},{"from":"下游出货增长","to":"天孚通信光器件、Lumentum光源需求","strength":"取决于客户份额和BOM"}],"affected":["zj","xy","tf","cohr","lite"],"observe":["高速产品出货量","模块分项收入","毛利率/良率","订单、产能利用率"],"source":"S08","caveat":"行业机构预测不能直接当公司订单；价格、替代技术、份额会改变传导方向。"},
+    {"id":"trade","name":"贸易限制与跨境供货扰动","kind":"政策与供给","status":"情景假设","detail":"假设关键原材料跨境采购或模块出口增加合规成本。","trigger":"权威贸易政策/公司采购风险披露","paths":[{"from":"贸易规则或出口限制变化","to":"海外交付、原料采购与产能布局","strength":"依赖具体产品与司法辖区"},{"from":"合规/替代供应链成本","to":"单位生产成本、交期、良率","strength":"方向和幅度不确定"},{"from":"交付与成本变化","to":"营业收入、毛利率、库存/应收","strength":"验证公司公告和报表"}],"affected":["zj","xy","cohr","lite"],"observe":["境外收入占比","原材料成本","存货与应收周转","毛利率、现金流"],"source":"S09","caveat":"不得将政策传闻当作已执行事实；不同供应链地域和客户合规情况不同。"},
+    {"id":"cpo","name":"CPO架构加速采用","kind":"技术替代","status":"情景假设","detail":"假设下一代交换网络采用更高比例的共封装光学解决方案。","trigger":"客户技术路线、产品认证与采购披露","paths":[{"from":"交换架构向CPO迁移","to":"可插拔模块与光引擎BOM变化","strength":"并非所有模块立即被替代"},{"from":"技术路线和产品认证","to":"光器件/光引擎/芯片供应链重新分配","strength":"取决于认证、良率、成本"},{"from":"公司实际供货与客户份额","to":"研发费用率、资本开支、产品毛利率","strength":"先支出后收入，时滞不确定"}],"affected":["zj","xy","tf","cohr","lite"],"observe":["产品认证进度","研发支出","资本开支与产能","CPO相关已披露收入"],"source":"S06","caveat":"研发计划只能支持技术布局，不支持量产收入判断。"}
+  ],
+  "comparisons": [
+    {"a":"zj","b":"cohr","score":76,"why":["均销售数据中心高速光互联产品","均受到AI网络带宽升级需求驱动","有已披露业务收入可作经营体量背景"],"not":["中际为2025年光收发模块产品口径；Coherent为FY2026 Datacenter & Communications分部，包含通信业务","不同币种与财年截止日，绝不直接除比或判定市占率","Coherent跨光芯片、器件和模块，毛利结构不可一一对应"],"sources":["S01","S04"]},
+    {"a":"xy","b":"cohr","score":74,"why":["均有高速光互联/模块产品","有产品或分部披露用于定性参照","受全球数据中心网络升级影响"],"not":["新易盛光互联产品含多种产品；Coherent更综合，非纯光模块","报告期、币种、会计与区域销售差异","不能把研发CPO表述转成商业化份额"],"sources":["S02","S04","S06"]},
+    {"a":"tf","b":"lite","score":67,"why":["上游光器件/光源产品角色有交集","均参与数据中心光互联价值链","可比较材料、产品迭代和客户交付风险"],"not":["天孚有源/无源器件拆分；Lumentum Components口径更宽且含激光器等","Lumentum Systems还包括OCS/工业激光，不能当光器件对照","器件级BOM、成本、客户/区域混合不同，未提供统一AI纯度"],"sources":["S03","S05"]},
+    {"a":"zj","b":"lite","score":43,"why":["同在高速光互联链条且受网络投资影响","可作技术与需求链上下游参照"],"not":["中际主营成品模块，Lumentum主营组件并含系统、工业业务","并非直接同业，不建议比较产品毛利率","没有同口径的AI收入或可比销量"],"sources":["S01","S05"]}
+  ]
+}
